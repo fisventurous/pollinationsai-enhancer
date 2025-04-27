@@ -26,6 +26,6 @@ Small UserScript to make web viewing on [pollinations.ai](https://pollinations.a
 [![Get Violentmonkey for Firefox](https://img.shields.io/badge/Violentmonkey-Firefox-orange?logo=firefox-browser)](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
 
 1. Install a UserScript manager like Tampermonkey or Violentmonkey from above.
-2. Install the script. Click the link below and your manager will catch it.
+2. Install the script. Click the link below. Your UserScript manager will detect it and show an install prompt.
 
    **[Click Here to Install Pollinations.ai Enhancer](https://github.com/fisventurous/pollinationsai-enhancer/raw/main/pln-enhancer.js)**
