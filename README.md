@@ -1,7 +1,7 @@
 # Pollinations.ai Enhancer UserScript
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.9.3-blue.svg)](https://github.com/fisventurous/pollinationsai-enhancer)
+[![Version](https://img.shields.io/badge/Version-1.9.4-blue.svg)](https://github.com/fisventurous/pollinationsai-enhancer)
 
 Small UserScript to make web viewing on [pollinations.ai](https://pollinations.ai/) better.
 
@@ -14,7 +14,6 @@ Small UserScript to make web viewing on [pollinations.ai](https://pollinations.a
 * Easy Download Buttons:
   * Download images and audio fast.
   * Removes EXIF data from images.
-  * Formatted file names like `pollinations.ai_<seed_or_noseed>_<YYYYMMDDHHMMSS>.<ext>`.
 * Metadata Display. Shows prompt, seed, model etc. from URL in a collapsible box.
 * Copy Text Button. Grab the main text fast.
 
