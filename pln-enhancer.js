@@ -32,23 +32,33 @@
     }
 
     function init() {
+        const hostname = window.location.hostname;
+    
+        if (!hostname.startsWith('text.pollinations.ai') && !hostname.startsWith('image.pollinations.ai')) {
+            console.log("Pollinations Enhancer: Skipping execution on unsupported domain:", hostname);
+            if (document.readyState === "loading") {
+                document.removeEventListener("DOMContentLoaded", init);
+            }
+            return;
+        }
+    
         addStyles();
         applyTheme();
         applyFontSize();
-
+    
         const pageType = detectPageType();
         setupLinkPreviews();
-
+    
         if (pageType.isText) enhanceTextPage();
         else if (pageType.isImage) enhanceImagePage();
         else if (pageType.isAudio) enhanceAudioPage();
         else createCommonButtons(extractUrlParameters(), "unknown");
-
+    
         if (pageType.isText)
             updateThemeToggleButton(
                 document.body.classList.contains("theme-dark"),
             );
-
+    
         startObserver(pageType);
     }
 
