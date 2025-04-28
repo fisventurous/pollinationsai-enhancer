@@ -3,7 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/Version-1.9.4-blue.svg)](https://github.com/fisventurous/pollinationsai-enhancer)
 
-Small UserScript to make web viewing on [pollinations.ai](https://pollinations.ai/) better.
+Small UserScript to make web viewing on [pollinations.ai](https://pollinations.ai/) better.  
+Now listed in the [official Pollinations GitHub repository](https://github.com/pollinations/pollinations).
 
 ## Features
 
@@ -25,6 +26,11 @@ Small UserScript to make web viewing on [pollinations.ai](https://pollinations.a
 [![Get Violentmonkey for Firefox](https://img.shields.io/badge/Violentmonkey-Firefox-orange?logo=firefox-browser)](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
 
 1. Install a UserScript manager like Tampermonkey or Violentmonkey from above.
-2. Install the script. Click the link below. Your UserScript manager will detect it and show an install prompt.
+2. Install the script. Click one of the links below. Your UserScript manager will detect it and show an install prompt.
 
-   **[Click Here to Install Pollinations.ai Enhancer](https://github.com/fisventurous/pollinationsai-enhancer/raw/main/pln-enhancer.js)**
+   **[Install from GitHub (Raw)](https://github.com/fisventurous/pollinationsai-enhancer/raw/main/pln-enhancer.js)**  
+   **[Install from GreasyFork](https://update.greasyfork.org/scripts/534183/Pollinationsai%20Enhancer.user.js)**
+
+---
+
+Pollinations.ai is open-source. Explore their API and projects at the [Pollinations GitHub repository](https://github.com/pollinations/pollinations).
